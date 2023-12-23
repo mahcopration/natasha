@@ -12,7 +12,7 @@ from logging.handlers import RotatingFileHandler
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
-TG_BOT_USERNAME = os.environ.get("TG_BOT_USERNAME", "Divya_File_Bot")
+TG_BOT_USERNAME = os.environ.get("TG_BOT_USERNAME", "")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", ""))
@@ -39,7 +39,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hey dear {first}\n\nIt's Me Diya 💕.")
+START_MSG = os.environ.get("START_MESSAGE", "Hey dear {first}\n\nIt's Me Natasha 💕.")
 try:
     ADMINS=[6112399514]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -48,7 +48,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hey dear {first}\n\nI'm Diya 💕 & You Have To Join My 1 Backup Channel After That You Can Get What You Want !\n\n<b>Kindly Please join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hey dear {first}\n\nI'm Natasha 💕 & You Have To Join My 1 Backup Channel After That You Can Get What You Want !\n\n<b>Kindly Please join Channel</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)

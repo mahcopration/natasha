@@ -24,9 +24,9 @@ def get_current_time():
 
 
 def shorten_url(url):
-    site_url = f"https://modijiurl.com/api?api=89bc5e15bbd107ee921539542bfa0dfcb0d6f536&url={url}&format=text"
+    site_url = f"https://modijiurl.com/api?api=0431193f060b4e4ae984ec82ea1ccdd87fdb3d61&url={url}&format=text"
     return str(requests.get(site_url).text)
 
 def shorten_urll(url):
-    site_url = f"https://filesendxbot.link/api?api=011be3b5ecc730204b9863e29c3af7df5525d3c5&url={url}&format=text"
+    site_url = f"https://gplinks.in//api?api=0208c5e8afe718af4a0d9d2b41f7070cd3dc108b&url={url}&format=text"
     return str(requests.get(site_url).text)

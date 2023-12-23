@@ -39,22 +39,22 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hey dear {first}\n\nIt's Me Laiba Sheikh 💕.")
+START_MSG = os.environ.get("START_MESSAGE", "Hey dear {first}\n\nIt's Me Diya 💕.")
 try:
-    ADMINS=[5452677687, 737940287]
+    ADMINS=[6112399514]
     for x in (os.environ.get("ADMINS", "").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hey dear {first}\n\nI'm Laiba Sheikh & You Have To Join My 1 Backup Channel After That You Can Get What You Want !\n\n<b>Kindly Please join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hey dear {first}\n\nI'm Diya 💕 & You Have To Join My 1 Backup Channel After That You Can Get What You Want !\n\n<b>Kindly Please join Channel</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'

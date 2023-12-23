@@ -81,7 +81,7 @@ async def start_command(client: Client, message: Message):
             ad_url = shorten_url(f"{ad_urll}")
             await client.send_message(
                 message.chat.id,
-                f"Hey 💕 **{message.from_user.mention}** \n\nYour Ads token is expired, refresh your token and try again. \n\n**Token Timeout:** 24 hour \n\n**What is token?** \nThis is an ads token. If you pass 1 ad, you can use the bot for 24 hour after passing the ad. \n\nwatch video tutorial if you're facing issue <a href='https://telegram.me/howtodownloadin/24'>Click Here</a> \n\n**APPLE/IPHONE USERS COPY TOKEN LINK AND OPEN IN CHROME BROWSER**",
+                f"Hey 💕 **{message.from_user.mention}** \n\nYour Ads token is expired, refresh your token and try again. \n\n**Token Timeout:** 24 hour \n\n**What is token?** \nThis is an ads token. If you pass 1 ad, you can use the bot for 24 hour after passing the ad. \n\nwatch video tutorial if you're facing issue <a href='https://t.me/howtodownloadfilesoffic/11'>Click Here</a> \n\n**APPLE/IPHONE USERS COPY TOKEN LINK AND OPEN IN CHROME BROWSER**",
                 disable_web_page_preview = True,
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -104,7 +104,7 @@ async def start_command(client: Client, message: Message):
             ad_url = shorten_url(f"{ad_urll}")
             await client.send_message(
                 message.chat.id,
-                f"Hey 💕 **{message.from_user.mention}** \n\nYour Ads token is expired, refresh your token and try again. \n\n**Token Timeout:** 24 hour \n\n**What is token?** \nThis is an ads token. If you pass 1 ad, you can use the bot for 24 hour after passing the ad. \n\nwatch video tutorial if you're facing issue <a href='https://telegram.me/howtodownloadin/24'>Click Here</a> \n\n**APPLE/IPHONE USERS COPY TOKEN LINK AND OPEN IN CHROME BROWSER**",
+                f"Hey 💕 **{message.from_user.mention}** \n\nYour Ads token is expired, refresh your token and try again. \n\n**Token Timeout:** 24 hour \n\n**What is token?** \nThis is an ads token. If you pass 1 ad, you can use the bot for 24 hour after passing the ad. \n\nwatch video tutorial if you're facing issue <a href='https://t.me/howtodownloadfilesoffic/11'>Click Here</a> \n\n**APPLE/IPHONE USERS COPY TOKEN LINK AND OPEN IN CHROME BROWSER**",
                 disable_web_page_preview = True,
                 reply_markup=InlineKeyboardMarkup(
                     [
